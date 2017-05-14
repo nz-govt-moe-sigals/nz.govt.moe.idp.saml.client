@@ -1,4 +1,4 @@
-namespace NZ.MOE.IdP.SAML.Client.config
+namespace nz.govt.moe.idp.saml.client.config
 {
     /// <summary>
     /// The common location for all configuration-section related constants
@@ -9,7 +9,7 @@ namespace NZ.MOE.IdP.SAML.Client.config
         /// We intend to use the same namespace uri for ALL configuration elements to make
         /// reuse of subelements (eg Certificate) easy.
         /// </summary>
-        public const string NamespaceUri = "urn:NZ.MOE.IdP.SAML.Client.configuration";
+        public const string NamespaceUri = "urn:nz.govt.moe.idp.saml.client.configuration";
 
         /// <summary>
         /// Section names used in configuration files.

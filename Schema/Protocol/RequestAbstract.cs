@@ -1,10 +1,10 @@
 using System;
 using System.Xml.Serialization;
-using NZ.MOE.IdP.SAML.Client.Schema.Core;
-using NZ.MOE.IdP.SAML.Client.Schema.XmlDSig;
-using NZ.MOE.IdP.SAML.Client.Utils;
+using nz.govt.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Schema.XmlDSig;
+using nz.govt.moe.idp.saml.client.Utils;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.Protocol
+namespace nz.govt.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// All SAML requests are of types that are derived from the abstract RequestAbstractType complex type.

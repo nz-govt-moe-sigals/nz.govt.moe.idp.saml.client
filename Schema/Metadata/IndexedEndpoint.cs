@@ -2,7 +2,7 @@ using System;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.Metadata
+namespace nz.govt.moe.idp.saml.client.Schema.Metadata
 {
     /// <summary>
     /// The complex type IndexedEndpointType extends EndpointType with a pair of attributes to permit the

@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.Core
+namespace nz.govt.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The Saml20 StatementAbstract class. It's the baseclass for all statements in Saml20.

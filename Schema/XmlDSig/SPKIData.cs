@@ -2,7 +2,7 @@ using System;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.XmlDSig
+namespace nz.govt.moe.idp.saml.client.Schema.XmlDSig
 {
     /// <summary>
     /// The SPKIData element within KeyInfo is used to convey information related to SPKI public key pairs, 

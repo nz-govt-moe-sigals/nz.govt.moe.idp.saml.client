@@ -1,12 +1,12 @@
 ﻿using System.Web;
 using System.Web.Security;
-using NZ.MOE.IdP.SAML.Client.session;
-using NZ.MOE.IdP.SAML.Client.identity;
-using NZ.MOE.IdP.SAML.Client.protocol;
+using nz.govt.moe.idp.saml.client.session;
+using nz.govt.moe.idp.saml.client.identity;
+using nz.govt.moe.idp.saml.client.protocol;
 using System.Security.Principal;
-using NZ.MOE.IdP.SAML.Client.Identity;
+using nz.govt.moe.idp.saml.client.Identity;
 
-namespace NZ.MOE.IdP.SAML.Client.Actions
+namespace nz.govt.moe.idp.saml.client.Actions
 {
     /// <summary>
     /// Sets the SamlPrincipal on the current http context

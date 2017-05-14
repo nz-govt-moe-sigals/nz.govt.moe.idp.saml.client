@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using NZ.MOE.IdP.SAML.Client.Schema.Core;
-using NZ.MOE.IdP.SAML.Client.session;
+using nz.govt.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.session;
 
-namespace NZ.MOE.IdP.SAML.Client.Session
+namespace nz.govt.moe.idp.saml.client.Session
 {
     /// <summary>
     /// A lite version of <see cref="Saml20Assertion"/> that is serializable. This is necessary in order to be able to support a distributed cache implementation of <see cref="ISessions"/>

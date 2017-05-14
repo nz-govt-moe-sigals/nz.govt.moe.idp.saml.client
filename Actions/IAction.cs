@@ -1,7 +1,7 @@
 ﻿using System.Web;
-using NZ.MOE.IdP.SAML.Client.protocol;
+using nz.govt.moe.idp.saml.client.protocol;
 
-namespace NZ.MOE.IdP.SAML.Client.Actions
+namespace nz.govt.moe.idp.saml.client.Actions
 {
     /// <summary>
     /// An implementation of the IAction interface can be called during login and logoff of the 

@@ -2,7 +2,7 @@ using System;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.XmlDSig
+namespace nz.govt.moe.idp.saml.client.Schema.XmlDSig
 {
     /// <summary>
     /// DigestMethod is a required element that identifies the digest algorithm to be applied to the signed 

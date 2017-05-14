@@ -1,10 +1,10 @@
 using System;
 using System.Xml;
-using NZ.MOE.IdP.SAML.Client.Schema.Core;
-using NZ.MOE.IdP.SAML.Client.Schema.Protocol;
-using NZ.MOE.IdP.SAML.Client.Utils;
+using nz.govt.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Schema.Protocol;
+using nz.govt.moe.idp.saml.client.Utils;
 
-namespace NZ.MOE.IdP.SAML.Client
+namespace nz.govt.moe.idp.saml.client
 {
     /// <summary>
     /// Encapsulates the LogoutResponse schema class

@@ -1,8 +1,8 @@
 using System;
 using System.Xml.Serialization;
-using NZ.MOE.IdP.SAML.Client.session;
+using nz.govt.moe.idp.saml.client.session;
 
-namespace NZ.MOE.IdP.SAML.Client.config
+namespace nz.govt.moe.idp.saml.client.config
 {
     /// <summary>
     /// Common federation parameters container - used by federation initiators to populate the intended audiences in a saml assertion

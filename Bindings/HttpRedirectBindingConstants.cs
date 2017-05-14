@@ -1,4 +1,4 @@
-namespace NZ.MOE.IdP.SAML.Client.Bindings
+namespace nz.govt.moe.idp.saml.client.Bindings
 {
     /// <summary>
     /// Contains constant string versions of the parameters in the HTTP Redirect Binding. 

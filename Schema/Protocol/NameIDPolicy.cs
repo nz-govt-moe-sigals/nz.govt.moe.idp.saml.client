@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.Protocol
+namespace nz.govt.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// The &lt;NameIDPolicy&gt; element tailors the name identifier in the subjects of assertions resulting from an

@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Security.Principal;
-using NZ.MOE.IdP.SAML.Client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Schema.Core;
 
-namespace NZ.MOE.IdP.SAML.Client.identity
+namespace nz.govt.moe.idp.saml.client.identity
 {
     /// <summary>
     /// The SAML 2.0 extension to the <c>IIdentity</c> interface.

@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Security.Principal;
-using NZ.MOE.IdP.SAML.Client.Session;
-using NZ.MOE.IdP.SAML.Client.session;
-using NZ.MOE.IdP.SAML.Client.identity;
+using nz.govt.moe.idp.saml.client.Session;
+using nz.govt.moe.idp.saml.client.session;
+using nz.govt.moe.idp.saml.client.identity;
 
-namespace NZ.MOE.IdP.SAML.Client.Identity
+namespace nz.govt.moe.idp.saml.client.Identity
 {
     /// <summary>
     /// 

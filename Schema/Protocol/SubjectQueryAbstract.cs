@@ -1,8 +1,8 @@
 using System;
 using System.Xml.Serialization;
-using NZ.MOE.IdP.SAML.Client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Schema.Core;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.Protocol
+namespace nz.govt.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// is an extension point that allows new SAML queries to be

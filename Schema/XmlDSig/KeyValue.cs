@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.XmlDSig
+namespace nz.govt.moe.idp.saml.client.Schema.XmlDSig
 {
     /// <summary>
     /// The KeyValue element contains a single public key that may be useful in validating the signature. 

@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NZ.MOE.IdP.SAML.Client</RootNamespace>
-    <AssemblyName>NZ.MOE.IdP.SAML.Client</AssemblyName>
+    <AssemblyName>nz.govt.moe.idp.saml.client</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -44,7 +44,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\NZ.MOE.IdP.SAML.Client.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\nz.govt.moe.idp.saml.client.xml</DocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>false</Prefer32Bit>

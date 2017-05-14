@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NZ.MOE.IdP.SAML.Client.session
+namespace nz.govt.moe.idp.saml.client.session
 {
     /// <summary>
     /// Represents a session. The session is not thread safe as we only expect one user at a time 

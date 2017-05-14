@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Xml.Serialization;
-using NZ.MOE.IdP.SAML.Client.Utils;
+using nz.govt.moe.idp.saml.client.Utils;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.Core
+namespace nz.govt.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The Saml20 Conditions class

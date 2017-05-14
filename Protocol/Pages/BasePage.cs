@@ -3,7 +3,7 @@ using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 
-namespace NZ.MOE.IdP.SAML.Client.protocol.pages
+namespace nz.govt.moe.idp.saml.client.protocol.pages
 {
     /// <summary>
     /// A base class for asp pages

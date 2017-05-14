@@ -1,6 +1,6 @@
-using NZ.MOE.IdP.SAML.Client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Schema.Core;
 
-namespace NZ.MOE.IdP.SAML.Client.Validation
+namespace nz.govt.moe.idp.saml.client.Validation
 {
     internal interface ISaml20StatementValidator
     {

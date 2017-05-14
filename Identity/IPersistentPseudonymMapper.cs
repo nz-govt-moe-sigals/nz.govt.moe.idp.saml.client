@@ -1,6 +1,6 @@
-﻿using NZ.MOE.IdP.SAML.Client.Schema.Core;
+﻿using nz.govt.moe.idp.saml.client.Schema.Core;
 
-namespace NZ.MOE.IdP.SAML.Client.identity
+namespace nz.govt.moe.idp.saml.client.identity
 {
     /// <summary>
     /// Implement this interface and register it in web.config on the relevant IdP endpoint to activate mapping of persistent pseudonyms

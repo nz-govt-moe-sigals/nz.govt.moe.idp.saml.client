@@ -1,8 +1,8 @@
 using System;
 using System.Xml;
-using NZ.MOE.IdP.SAML.Client.Utils;
+using nz.govt.moe.idp.saml.client.Utils;
 
-namespace NZ.MOE.IdP.SAML.Client.Validation
+namespace nz.govt.moe.idp.saml.client.Validation
 {
     internal class Saml20XmlAnyAttributeValidator
     {

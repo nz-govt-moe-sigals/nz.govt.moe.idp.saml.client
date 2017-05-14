@@ -1,9 +1,9 @@
 using System;
 using System.Xml.Serialization;
-using NZ.MOE.IdP.SAML.Client.Schema.XEnc;
-using NZ.MOE.IdP.SAML.Client.Schema.XmlDSig;
+using nz.govt.moe.idp.saml.client.Schema.XEnc;
+using nz.govt.moe.idp.saml.client.Schema.XmlDSig;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.Metadata
+namespace nz.govt.moe.idp.saml.client.Schema.Metadata
 {
     /// <summary>
     /// The &lt;KeyDescriptor&gt; element provides information about the cryptographic key(s) that an entity uses

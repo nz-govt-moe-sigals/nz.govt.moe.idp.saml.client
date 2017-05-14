@@ -1,10 +1,10 @@
 using System;
 using System.Xml;
 using System.Xml.Serialization;
-using NZ.MOE.IdP.SAML.Client.Schema.XmlDSig;
-using NZ.MOE.IdP.SAML.Client.Utils;
+using nz.govt.moe.idp.saml.client.Schema.XmlDSig;
+using nz.govt.moe.idp.saml.client.Utils;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.Metadata
+namespace nz.govt.moe.idp.saml.client.Schema.Metadata
 {
     /// <summary>
     /// The &lt;AffiliationDescriptor&gt; element is an alternative to the sequence of role descriptors

@@ -9,9 +9,9 @@ using System.ServiceModel.Channels;
 using System.Text;
 using System.Web;
 using System.Xml;
-using NZ.MOE.IdP.SAML.Client.config;
+using nz.govt.moe.idp.saml.client.config;
 
-namespace NZ.MOE.IdP.SAML.Client.Bindings
+namespace nz.govt.moe.idp.saml.client.Bindings
 {
     /// <summary>
     /// Implements the HTTP SOAP binding

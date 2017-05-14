@@ -5,23 +5,23 @@ using System.Threading;
 using System.Web;
 using System.Web.Security;
 using System.Xml;
-using NZ.MOE.IdP.SAML.Client.Bindings;
-using NZ.MOE.IdP.SAML.Client.Identity;
-using NZ.MOE.IdP.SAML.Client.Session;
-using NZ.MOE.IdP.SAML.Client.identity;
-using NZ.MOE.IdP.SAML.Client.session;
-using NZ.MOE.IdP.SAML.Client.config;
-using NZ.MOE.IdP.SAML.Client.Logging;
-using NZ.MOE.IdP.SAML.Client.Properties;
-using NZ.MOE.IdP.SAML.Client.Schema.Metadata;
-using NZ.MOE.IdP.SAML.Client.Schema.Protocol;
-using NZ.MOE.IdP.SAML.Client.Utils;
+using nz.govt.moe.idp.saml.client.Bindings;
+using nz.govt.moe.idp.saml.client.Identity;
+using nz.govt.moe.idp.saml.client.Session;
+using nz.govt.moe.idp.saml.client.identity;
+using nz.govt.moe.idp.saml.client.session;
+using nz.govt.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.Logging;
+using nz.govt.moe.idp.saml.client.Properties;
+using nz.govt.moe.idp.saml.client.Schema.Metadata;
+using nz.govt.moe.idp.saml.client.Schema.Protocol;
+using nz.govt.moe.idp.saml.client.Utils;
 using Saml2.Properties;
-using Trace = NZ.MOE.IdP.SAML.Client.Utils.Trace;
-using NZ.MOE.IdP.SAML.Client.Actions;
-using NZ.MOE.IdP.SAML.Client.MOE;
+using Trace = nz.govt.moe.idp.saml.client.Utils.Trace;
+using nz.govt.moe.idp.saml.client.Actions;
+using nz.govt.moe.idp.saml.client.MOE;
 
-namespace NZ.MOE.IdP.SAML.Client.protocol
+namespace nz.govt.moe.idp.saml.client.protocol
 {
     /// <summary>
     /// Handles logout for all SAML bindings.

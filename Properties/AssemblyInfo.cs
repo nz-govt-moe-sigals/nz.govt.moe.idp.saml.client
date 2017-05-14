@@ -6,8 +6,8 @@ using System.Web.UI;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NZ.MOE.IdP.SAML.Client")]
-[assembly: AssemblyDescription("NZ.MOE.IdP.SAML.Client a Net-based SAML 2.0 client that is a customization ofthe danish OIOSAML.NET toolkit.")]
+[assembly: AssemblyTitle("nz.govt.moe.idp.saml.client")]
+[assembly: AssemblyDescription("nz.govt.moe.idp.saml.client a Net-based SAML 2.0 client that is a customization ofthe danish OIOSAML.NET toolkit.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Ministry of Education, NZ")]
 [assembly: AssemblyProduct("")]
@@ -28,5 +28,5 @@ using System.Web.UI;
 [assembly: AssemblyInformationalVersion("1.7.13")]
 
 
-[assembly: WebResource("NZ.MOE.IdP.SAML.Client.Protocol.Resources.DefaultStyle.css", "text/css")]
+[assembly: WebResource("nz.govt.moe.idp.saml.client.Protocol.Resources.DefaultStyle.css", "text/css")]
 

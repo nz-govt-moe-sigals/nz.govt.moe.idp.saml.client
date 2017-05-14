@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using NZ.MOE.IdP.SAML.Client.config;
-using Trace=NZ.MOE.IdP.SAML.Client.Utils.Trace;
+using nz.govt.moe.idp.saml.client.config;
+using Trace=nz.govt.moe.idp.saml.client.Utils.Trace;
 
-namespace NZ.MOE.IdP.SAML.Client.Specification
+namespace nz.govt.moe.idp.saml.client.Specification
 {
     ///<summary>
     /// 

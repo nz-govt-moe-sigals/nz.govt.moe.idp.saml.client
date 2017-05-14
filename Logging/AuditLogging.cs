@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Text;
 using System.Web;
 using System.Xml;
-using NZ.MOE.IdP.SAML.Client.identity;
-using NZ.MOE.IdP.SAML.Client.Schema.Metadata;
-using NZ.MOE.IdP.SAML.Client.config;
-using NZ.MOE.IdP.SAML.Client.Utils;
-using NZ.MOE.IdP.SAML.Client.session;
+using nz.govt.moe.idp.saml.client.identity;
+using nz.govt.moe.idp.saml.client.Schema.Metadata;
+using nz.govt.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.Utils;
+using nz.govt.moe.idp.saml.client.session;
 
-namespace NZ.MOE.IdP.SAML.Client.Logging
+namespace nz.govt.moe.idp.saml.client.Logging
 {
     ///<summary>
     ///</summary>
@@ -63,7 +63,7 @@ namespace NZ.MOE.IdP.SAML.Client.Logging
             string currentAuthLevel = "Unknown";
             if (Saml20Identity.IsInitialized() && Saml20Identity.Current != null)
             {
-                currentAuthLevel = Saml20Identity.Current["dk:gov:saml:attribute:AssuranceLevel"][0].AttributeValue[0];
+                currentAuthLevel = Saml20Identity.Current["nz.govt.moe.idp.saml.client:attribute:AssuranceLevel"][0].AttributeValue[0];
             }
 
             logEntry(Direction.UNDEFINED, Operation.LOGIN_PERSISTENT_PSEUDONYME, string.Format("Authenticated nameid: {0} as local user id: {1}, auth.level: {2}, session timeout in minutes: {3}", nameid, localuserid, currentAuthLevel, FederationConfig.GetConfig().SessionTimeout));

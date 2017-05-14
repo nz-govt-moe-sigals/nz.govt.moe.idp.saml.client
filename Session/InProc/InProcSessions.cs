@@ -6,7 +6,7 @@ using System.Text;
 using System.Web;
 using System.Web.Caching;
 
-namespace NZ.MOE.IdP.SAML.Client.session.inproc
+namespace nz.govt.moe.idp.saml.client.session.inproc
 {
     internal class InProcSessions : AbstractSessions
     {

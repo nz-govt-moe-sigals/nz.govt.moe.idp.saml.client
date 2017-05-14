@@ -1,4 +1,4 @@
-namespace NZ.MOE.IdP.SAML.Client
+namespace nz.govt.moe.idp.saml.client
 {
     /// <summary>
     /// Constants related to SAML 2.0

@@ -1,9 +1,9 @@
 using System;
 using System.Xml;
 using System.Xml.Serialization;
-using NZ.MOE.IdP.SAML.Client.Schema.XmlDSig;
+using nz.govt.moe.idp.saml.client.Schema.XmlDSig;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.Metadata
+namespace nz.govt.moe.idp.saml.client.Schema.Metadata
 {
     /// <summary>
     /// The &lt;EntityDescriptor&gt; element specifies metadata for a single SAML entity. A single entity may act

@@ -4,11 +4,11 @@ using System.Security.Cryptography;
 using System.Security.Cryptography.Xml;
 using System.Text;
 using System.Xml;
-using NZ.MOE.IdP.SAML.Client.Schema.Protocol;
-using NZ.MOE.IdP.SAML.Client.Utils;
-using SfwEncryptedData = NZ.MOE.IdP.SAML.Client.Schema.XEnc.EncryptedData;
+using nz.govt.moe.idp.saml.client.Schema.Protocol;
+using nz.govt.moe.idp.saml.client.Utils;
+using SfwEncryptedData = nz.govt.moe.idp.saml.client.Schema.XEnc.EncryptedData;
 
-namespace NZ.MOE.IdP.SAML.Client
+namespace nz.govt.moe.idp.saml.client
 {
     /// <summary>
     /// Handles the <code>EncryptedAssertion</code> element. 

@@ -1,6 +1,6 @@
 using System;
 
-namespace NZ.MOE.IdP.SAML.Client
+namespace nz.govt.moe.idp.saml.client
 {
     /// <summary>
     /// Thrown when a token does not comply with the DK-Saml 2.0 specification. This does not necessarily imply that the

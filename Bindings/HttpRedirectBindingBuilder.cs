@@ -5,9 +5,9 @@ using System.Security.Cryptography;
 using System.Security.Cryptography.Xml;
 using System.Text;
 using System.Web;
-using CONSTS = NZ.MOE.IdP.SAML.Client.Bindings.HttpRedirectBindingConstants;
+using CONSTS = nz.govt.moe.idp.saml.client.Bindings.HttpRedirectBindingConstants;
 
-namespace NZ.MOE.IdP.SAML.Client.Bindings
+namespace nz.govt.moe.idp.saml.client.Bindings
 {
     /// <summary>
     /// Handles the creation of redirect locations when using the HTTP redirect binding, which is outlined in [SAMLBind] 

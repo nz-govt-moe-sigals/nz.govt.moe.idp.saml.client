@@ -1,11 +1,11 @@
 using System;
 using System.Xml;
 using System.Xml.Serialization;
-using NZ.MOE.IdP.SAML.Client.Schema.XmlDSig;
-using NZ.MOE.IdP.SAML.Client.Utils;
-using NZ.MOE.IdP.SAML.Client.MOE;
+using nz.govt.moe.idp.saml.client.Schema.XmlDSig;
+using nz.govt.moe.idp.saml.client.Utils;
+using nz.govt.moe.idp.saml.client.MOE;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.Metadata
+namespace nz.govt.moe.idp.saml.client.Schema.Metadata
 {
     /// <summary>
     /// The &lt;RoleDescriptor&gt; element is an abstract extension point that contains common descriptive

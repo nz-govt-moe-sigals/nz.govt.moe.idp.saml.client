@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
-using NZ.MOE.IdP.SAML.Client.config;
-using Trace = NZ.MOE.IdP.SAML.Client.Utils.Trace;
+using nz.govt.moe.idp.saml.client.config;
+using Trace = nz.govt.moe.idp.saml.client.Utils.Trace;
 
-namespace NZ.MOE.IdP.SAML.Client.session
+namespace nz.govt.moe.idp.saml.client.session
 {
     /// <summary>
     /// This abstract class can be used instead of implementing <see cref="ISessions"/>. This class makes use of cookies to track the session for each user.

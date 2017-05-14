@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Web;
-using NZ.MOE.IdP.SAML.Client.config;
-using NZ.MOE.IdP.SAML.Client.protocol;
+using nz.govt.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.protocol;
 
-namespace NZ.MOE.IdP.SAML.Client.Utils
+namespace nz.govt.moe.idp.saml.client.Utils
 {
     /// <summary>
     /// This delegate is used handling events, where the framework have several configured IDP's to choose from

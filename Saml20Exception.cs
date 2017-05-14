@@ -1,6 +1,6 @@
 using System;
 
-namespace NZ.MOE.IdP.SAML.Client
+namespace nz.govt.moe.idp.saml.client
 {
     /// <summary>
     /// This exception is thrown to indicate an error in the SAML2 toolkit. It was introduced to make it easy to distinguish between

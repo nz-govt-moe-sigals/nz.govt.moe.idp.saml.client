@@ -5,12 +5,12 @@ using System.Security.Principal;
 using System.Threading;
 using System.Web;
 using System.Web.Security;
-using NZ.MOE.IdP.SAML.Client.Session;
-using NZ.MOE.IdP.SAML.Client.config;
-using NZ.MOE.IdP.SAML.Client.Schema.Core;
-using NZ.MOE.IdP.SAML.Client.Identity;
+using nz.govt.moe.idp.saml.client.Session;
+using nz.govt.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Identity;
 
-namespace NZ.MOE.IdP.SAML.Client.identity
+namespace nz.govt.moe.idp.saml.client.identity
 {
     /// <summary>
     /// <para>

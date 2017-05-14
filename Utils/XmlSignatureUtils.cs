@@ -4,12 +4,12 @@ using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Cryptography.Xml;
 using System.Xml;
-using NZ.MOE.IdP.SAML.Client.config;
-using Signature = NZ.MOE.IdP.SAML.Client.Schema.XmlDSig.Signature;
+using nz.govt.moe.idp.saml.client.config;
+using Signature = nz.govt.moe.idp.saml.client.Schema.XmlDSig.Signature;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace NZ.MOE.IdP.SAML.Client.Utils
+namespace nz.govt.moe.idp.saml.client.Utils
 {
     ///<summary>
     ///</summary>

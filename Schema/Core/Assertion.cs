@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Xml.Serialization;
-using NZ.MOE.IdP.SAML.Client.Schema.XmlDSig;
-using NZ.MOE.IdP.SAML.Client.Utils;
+using nz.govt.moe.idp.saml.client.Schema.XmlDSig;
+using nz.govt.moe.idp.saml.client.Utils;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.Core
+namespace nz.govt.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The &lt;Assertion&gt; element is of the AssertionType complex type. This type specifies the basic

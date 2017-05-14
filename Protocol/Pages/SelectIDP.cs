@@ -2,10 +2,10 @@ using System;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using NZ.MOE.IdP.SAML.Client.config;
+using nz.govt.moe.idp.saml.client.config;
 using Saml2.Properties;
 
-namespace NZ.MOE.IdP.SAML.Client.protocol.pages
+namespace nz.govt.moe.idp.saml.client.protocol.pages
 {
     /// <summary>
     /// Page that handles selecting an IdP when more than one is configured

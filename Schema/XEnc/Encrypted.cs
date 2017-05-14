@@ -1,8 +1,8 @@
 using System;
 using System.Xml.Serialization;
-using NZ.MOE.IdP.SAML.Client.Schema.XmlDSig;
+using nz.govt.moe.idp.saml.client.Schema.XmlDSig;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.XEnc
+namespace nz.govt.moe.idp.saml.client.Schema.XEnc
 {
     /// <summary>
     /// The base class for EncryptedKey and EncryptedData

@@ -1,8 +1,8 @@
 using System;
 using System.Xml.Serialization;
-using my=NZ.MOE.IdP.SAML.Client.Schema.Core;
-using NZ.MOE.IdP.SAML.Client.Schema.Core;
-namespace NZ.MOE.IdP.SAML.Client.Schema.Protocol
+using my=nz.govt.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Schema.Core;
+namespace nz.govt.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// The &lt;AuthzDecisionQuery&gt; element is used to make the query "Should these actions on this resource

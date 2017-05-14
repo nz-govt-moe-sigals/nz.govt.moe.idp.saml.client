@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web;
 
-namespace NZ.MOE.IdP.SAML.Client.session
+namespace nz.govt.moe.idp.saml.client.session
 {
     /// <summary>
     /// Contains the logic about how to create and store the SessionId

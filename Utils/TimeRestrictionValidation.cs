@@ -1,6 +1,6 @@
 using System;
 
-namespace NZ.MOE.IdP.SAML.Client.Utils
+namespace nz.govt.moe.idp.saml.client.Utils
 {
     /// <summary>
     /// Utility functions for validating SAML message time stamps

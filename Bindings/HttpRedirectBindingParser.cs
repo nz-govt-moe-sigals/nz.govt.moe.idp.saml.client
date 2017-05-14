@@ -7,12 +7,12 @@ using System.Security.Cryptography.Xml;
 using System.Text;
 using System.Web;
 using System.Xml;
-using NZ.MOE.IdP.SAML.Client.Schema.Metadata;
-using NZ.MOE.IdP.SAML.Client.Schema.Protocol;
-using NZ.MOE.IdP.SAML.Client.Utils;
-using CONSTS = NZ.MOE.IdP.SAML.Client.Bindings.HttpRedirectBindingConstants;
+using nz.govt.moe.idp.saml.client.Schema.Metadata;
+using nz.govt.moe.idp.saml.client.Schema.Protocol;
+using nz.govt.moe.idp.saml.client.Utils;
+using CONSTS = nz.govt.moe.idp.saml.client.Bindings.HttpRedirectBindingConstants;
 
-namespace NZ.MOE.IdP.SAML.Client.Bindings
+namespace nz.govt.moe.idp.saml.client.Bindings
 {
     /// <summary>
     /// Parses and validates the query parameters of a HttpRedirectBinding. [SAMLBind] section 3.4.

@@ -2,7 +2,7 @@ using System;
 using System.CodeDom.Compiler;
 using System.Xml.Serialization;
 
-namespace NZ.MOE.IdP.SAML.Client.Schema.Protocol
+namespace nz.govt.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// The &lt;Scoping&gt; element specifies the identity providers trusted by the requester to authenticate the
