@@ -1,7 +1,7 @@
 using System;
 using System.Xml;
 
-namespace nz.govt.moe.idp.saml.client.Utils
+namespace nz.moe.idp.saml.client.Utils
 {
     /// <summary>
     /// Helpers for converting between string and DateTime representations of UTC date-times

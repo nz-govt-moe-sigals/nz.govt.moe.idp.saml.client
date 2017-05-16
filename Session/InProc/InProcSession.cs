@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace nz.govt.moe.idp.saml.client.session.inproc
+namespace nz.moe.idp.saml.client.session.inproc
 {
     class InProcSession : ISession
     {

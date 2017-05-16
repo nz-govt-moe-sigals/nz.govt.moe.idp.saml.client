@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Schema.XEnc
+namespace nz.moe.idp.saml.client.Schema.XEnc
 {
     /// <summary>
     /// The CipherData is a mandatory element that provides the encrypted data. It must either contain the 

@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Protocol
+namespace nz.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// If the requester knows the unique identifier of one or more assertions, the &lt;AssertionIDRequest&gt;

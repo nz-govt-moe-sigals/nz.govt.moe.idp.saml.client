@@ -2,9 +2,9 @@ using System;
 using System.Text;
 using System.Web.UI;
 using System.Web.UI.HtmlControls;
-using nz.govt.moe.idp.saml.client.config;
+using nz.moe.idp.saml.client.config;
 
-namespace nz.govt.moe.idp.saml.client.Bindings
+namespace nz.moe.idp.saml.client.Bindings
 {
     /// <summary>
     /// Implementation of the HTTP POST binding.

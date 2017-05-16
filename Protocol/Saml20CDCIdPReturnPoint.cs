@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Web;
-using nz.govt.moe.idp.saml.client.session;
-using nz.govt.moe.idp.saml.client.config;
-using nz.govt.moe.idp.saml.client.protocol;
-using nz.govt.moe.idp.saml.client.Utils;
+using nz.moe.idp.saml.client.session;
+using nz.moe.idp.saml.client.config;
+using nz.moe.idp.saml.client.protocol;
+using nz.moe.idp.saml.client.Utils;
 
-namespace nz.govt.moe.idp.saml.client.protocol
+namespace nz.moe.idp.saml.client.protocol
 {
     /// <summary>
     /// 

@@ -9,24 +9,24 @@ using System.Text;
 using System.Web;
 using System.Web.Caching;
 using System.Xml;
-using nz.govt.moe.idp.saml.client.Actions;
-using nz.govt.moe.idp.saml.client.Bindings;
-using nz.govt.moe.idp.saml.client.Profiles.DKSaml20.Attributes;
-using nz.govt.moe.idp.saml.client.Session;
-using nz.govt.moe.idp.saml.client.session;
-using nz.govt.moe.idp.saml.client.config;
-using nz.govt.moe.idp.saml.client.Logging;
-using nz.govt.moe.idp.saml.client.Properties;
-using nz.govt.moe.idp.saml.client.protocol.pages;
-using nz.govt.moe.idp.saml.client.Schema.Core;
-using nz.govt.moe.idp.saml.client.Schema.Metadata;
-using nz.govt.moe.idp.saml.client.Schema.Protocol;
-using nz.govt.moe.idp.saml.client.Specification;
-using nz.govt.moe.idp.saml.client.Utils;
+using nz.moe.idp.saml.client.Actions;
+using nz.moe.idp.saml.client.Bindings;
+using nz.moe.idp.saml.client.Profiles.DKSaml20.Attributes;
+using nz.moe.idp.saml.client.Session;
+using nz.moe.idp.saml.client.session;
+using nz.moe.idp.saml.client.config;
+using nz.moe.idp.saml.client.Logging;
+using nz.moe.idp.saml.client.Properties;
+using nz.moe.idp.saml.client.protocol.pages;
+using nz.moe.idp.saml.client.Schema.Core;
+using nz.moe.idp.saml.client.Schema.Metadata;
+using nz.moe.idp.saml.client.Schema.Protocol;
+using nz.moe.idp.saml.client.Specification;
+using nz.moe.idp.saml.client.Utils;
 using Saml2.Properties;
-using Trace=nz.govt.moe.idp.saml.client.Utils.Trace;
+using Trace=nz.moe.idp.saml.client.Utils.Trace;
 
-namespace nz.govt.moe.idp.saml.client.protocol
+namespace nz.moe.idp.saml.client.protocol
 {
     /// <summary>
     /// Implements a Saml 2.0 protocol sign-on endpoint. Handles all SAML bindings.
@@ -34,7 +34,10 @@ namespace nz.govt.moe.idp.saml.client.protocol
     public class Saml20SignonHandler : Saml20AbstractEndpointHandler
     {
         private readonly X509Certificate2  _certificate;
-
+        /// <summary>
+        /// Session key used to save the current message id with the purpose of preventing replay attacks
+        /// </summary>
+        public const string ExpectedInResponseToSessionKey = "ExpectedInResponseTo";
         /// <summary>
         /// Initializes a new instance of the <see cref="Saml20SignonHandler"/> class.
         /// </summary>
@@ -65,7 +68,7 @@ namespace nz.govt.moe.idp.saml.client.protocol
         {
             Trace.TraceMethodCalled(GetType(), "Handle()");
 
-            
+
 
             //Some IdP's are known to fail to set an actual value in the SOAPAction header
             //so we just check for the existence of the header field.
@@ -101,7 +104,7 @@ namespace nz.govt.moe.idp.saml.client.protocol
                 }
             }
         }
-                
+
         #endregion
 
         private void HandleArtifact(HttpContext context)
@@ -187,9 +190,9 @@ namespace nz.govt.moe.idp.saml.client.protocol
             // See if the "ReturnUrl" - parameter is set.
             string returnUrl = context.Request.QueryString["ReturnUrl"];
             // If PreventOpenRedirectAttack has been enabled ... the return URL is only set if the URL is local.
-            if (!string.IsNullOrEmpty(returnUrl) && (!FederationConfig.GetConfig().PreventOpenRedirectAttack || IsLocalUrl(returnUrl))) 
+            if (!string.IsNullOrEmpty(returnUrl) && (!FederationConfig.GetConfig().PreventOpenRedirectAttack || IsLocalUrl(returnUrl)))
                 SessionFactory.SessionContext.Current[SessionConstants.RedirectUrl] = returnUrl;
-            
+
             IDPEndPoint idpEndpoint = RetrieveIDP(context);
 
             if (idpEndpoint == null)
@@ -201,7 +204,7 @@ namespace nz.govt.moe.idp.saml.client.protocol
             }
 
             Saml20AuthnRequest authnRequest = Saml20AuthnRequest.GetDefault();
-            TransferClient(idpEndpoint, authnRequest, context);            
+            TransferClient(idpEndpoint, authnRequest, context);
         }
 
         /// <summary>
@@ -234,7 +237,7 @@ namespace nz.govt.moe.idp.saml.client.protocol
 
         internal static XmlElement GetAssertion(XmlElement el, out bool isEncrypted)
         {
-            
+
             XmlNodeList encryptedList =
                 el.GetElementsByTagName(EncryptedAssertion.ELEMENT_NAME, Saml20Constants.ASSERTION);
 
@@ -259,7 +262,7 @@ namespace nz.govt.moe.idp.saml.client.protocol
 
         /// <summary>
         /// Handle the authentication response from the IDP.
-        /// </summary>        
+        /// </summary>
         private void HandleResponse(HttpContext context)
         {
             Encoding defaultEncoding = Encoding.UTF8;
@@ -279,7 +282,7 @@ namespace nz.govt.moe.idp.saml.client.protocol
                 string inResponseTo = inResponseToAttribute.Value;
 
                 CheckReplayAttack(context, inResponseTo);
-                
+
                 Status status = GetStatusElement(doc);
 
                 if (status.StatusCode.Value != Saml20Constants.StatusCodes.Success)
@@ -292,7 +295,7 @@ namespace nz.govt.moe.idp.saml.client.protocol
                 }
 
                 // Determine whether the assertion should be decrypted before being validated.
-            
+
                 bool isEncrypted;
                 XmlElement assertion = GetAssertion(doc.DocumentElement, out isEncrypted);
                 if (isEncrypted)
@@ -335,7 +338,8 @@ namespace nz.govt.moe.idp.saml.client.protocol
 
         private static void CheckReplayAttack(HttpContext context, string inResponseTo)
         {
-            var expectedInResponseToSessionState = SessionFactory.SessionContext.Current[SessionConstants.ExpectedInResponseTo];
+            var expectedInResponseToSessionState = context.Session[ExpectedInResponseToSessionKey];
+           // var expectedInResponseToSessionState = SessionFactory.SessionContext.Current[SessionConstants.ExpectedInResponseTo];
             if (expectedInResponseToSessionState == null)
                 throw new Saml20Exception("Your session has been disconnected, please logon again");
 
@@ -431,7 +435,7 @@ namespace nz.govt.moe.idp.saml.client.protocol
             Trace.TraceMethodCalled(GetType(), "HandleAssertion");
 
             string issuer = GetIssuer(elem);
-            
+
             IDPEndPoint endp = RetrieveIDPConfiguration(issuer);
 
             AuditLogging.IdpId = endp.Id;
@@ -444,9 +448,9 @@ namespace nz.govt.moe.idp.saml.client.protocol
             {
                 quirksMode = endp.QuirksMode;
             }
-            
+
             Saml20Assertion assertion = new Saml20Assertion(elem, null, quirksMode);
-                        
+
             if (endp == null || endp.metadata == null)
             {
                 AuditLogging.logEntry(Direction.IN, Operation.AUTHNREQUEST_POST,
@@ -521,7 +525,7 @@ namespace nz.govt.moe.idp.saml.client.protocol
             foreach (KeyDescriptor keyDescriptor in keys)
             {
                 KeyInfo ki = (KeyInfo) keyDescriptor.KeyInfo;
-                    
+
                 foreach (KeyInfoClause clause in ki)
                 {
                     if(clause is KeyInfoX509Data)
@@ -535,7 +539,7 @@ namespace nz.govt.moe.idp.saml.client.protocol
                     AsymmetricAlgorithm key = XmlSignatureUtils.ExtractKey(clause);
                     result.Add(key);
                 }
-                
+
             }
 
             return result;
@@ -546,7 +550,7 @@ namespace nz.govt.moe.idp.saml.client.protocol
             foreach(ICertificateSpecification spec in SpecificationFactory.GetCertificateSpecifications(ep))
             {
                 if (!spec.IsSatisfiedBy(cert))
-                    return false;   
+                    return false;
             }
 
             return true;
@@ -571,14 +575,14 @@ namespace nz.govt.moe.idp.saml.client.protocol
         {
             SessionFactory.SessionContext.AssociateUserIdWithCurrentSession(assertion.Subject.Value);
             SessionFactory.SessionContext.Current[SessionConstants.Saml20AssertionLite] = Saml20AssertionLite.ToLite(assertion);
-            
+
             if(Trace.ShouldTrace(TraceEventType.Information))
             {
                 Trace.TraceData(TraceEventType.Information, string.Format(Tracing.Login, assertion.Subject.Value, assertion.SessionIndex, assertion.Subject.Format));
             }
 
             string assuranceLevel = GetAssuranceLevel(assertion) ?? "(Unknown)";
-            
+
             AuditLogging.logEntry(Direction.IN, Operation.LOGIN, string.Format("Subject: {0} NameIDFormat: {1}  Level of authentication: {2}  Session timeout in minutes: {3}", assertion.Subject.Value, assertion.Subject.Format, assuranceLevel, FederationConfig.GetConfig().SessionTimeout));
 
 
@@ -587,7 +591,7 @@ namespace nz.govt.moe.idp.saml.client.protocol
                 Trace.TraceMethodCalled(action.GetType(), "LoginAction()");
 
                 action.LoginAction(this, context, assertion);
-                
+
                 Trace.TraceMethodDone(action.GetType(), "LoginAction()");
             }
         }
@@ -615,11 +619,11 @@ namespace nz.govt.moe.idp.saml.client.protocol
             AuditLogging.IdpId = idpEndpoint.Id;
 
             // Determine which endpoint to use from the configuration file or the endpoint metadata.
-            IDPEndPointElement destination = 
+            IDPEndPointElement destination =
                 DetermineEndpointConfiguration(SAMLBinding.REDIRECT, idpEndpoint.SSOEndpoint, idpEndpoint.metadata.SSOEndpoints());
 
- 
-    
+
+
             request.Destination = destination.Url;
 
             bool isPassive;
@@ -653,10 +657,13 @@ namespace nz.govt.moe.idp.saml.client.protocol
             //Save request message id to session
             SessionFactory.SessionContext.Current[SessionConstants.ExpectedInResponseTo] = request.ID;
 
+            //Save request message id to session
+            context.Session.Add(ExpectedInResponseToSessionKey, request.ID);
+
             if (destination.Binding == SAMLBinding.REDIRECT)
             {
                 Trace.TraceData(TraceEventType.Information, string.Format(Tracing.SendAuthnRequest, Saml20Constants.ProtocolBindings.HTTP_Redirect, idpEndpoint.Id));
-                
+
                 HttpRedirectBindingBuilder builder = new HttpRedirectBindingBuilder();
                 builder.signingKey = _certificate.PrivateKey;
                 builder.Request = request.GetXml().OuterXml;

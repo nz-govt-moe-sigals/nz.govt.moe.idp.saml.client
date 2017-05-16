@@ -1,12 +1,12 @@
 using System;
 using System.Xml;
-using nz.govt.moe.idp.saml.client.config;
-using nz.govt.moe.idp.saml.client.Schema.Core;
-using nz.govt.moe.idp.saml.client.Schema.Protocol;
-using nz.govt.moe.idp.saml.client.Utils;
+using nz.moe.idp.saml.client.config;
+using nz.moe.idp.saml.client.Schema.Core;
+using nz.moe.idp.saml.client.Schema.Protocol;
+using nz.moe.idp.saml.client.Utils;
 using Saml2.Properties;
 
-namespace nz.govt.moe.idp.saml.client
+namespace nz.moe.idp.saml.client
 {
     /// <summary>
     /// Encapsulates the LogoutRequest schema class

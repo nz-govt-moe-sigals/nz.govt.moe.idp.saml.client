@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Diagnostics;
 
-namespace nz.govt.moe.idp.saml.client.Logging
+namespace nz.moe.idp.saml.client.Logging
 {
     /// <summary>
     /// An implementation of the IAuditLogger interface that uses the System.Diagnostics Trace functionality to audit log.
@@ -18,7 +18,7 @@ namespace nz.govt.moe.idp.saml.client.Logging
 
         static TraceAuditLogger()
         {
-            _source = new TraceSource("dk.nita.saml20");
+            _source = new TraceSource("nz.moe.idp.saml.client");
         }
 
         public void LogEntry(Direction dir, Operation op, string msg, string data, string userHostAddress, string idpId, string assertionId, string sessionId)

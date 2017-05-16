@@ -7,20 +7,20 @@ using System.Text;
 using System.Web;
 using System.Xml;
 using System.Xml.Serialization;
-using nz.govt.moe.idp.saml.client.identity;
-using nz.govt.moe.idp.saml.client.protocol;
-using nz.govt.moe.idp.saml.client.Schema.Metadata;
-using nz.govt.moe.idp.saml.client.Utils;
+using nz.moe.idp.saml.client.identity;
+using nz.moe.idp.saml.client.protocol;
+using nz.moe.idp.saml.client.Schema.Metadata;
+using nz.moe.idp.saml.client.Utils;
 using Saml2.Properties;
-using Trace=nz.govt.moe.idp.saml.client.Utils.Trace;
+using Trace=nz.moe.idp.saml.client.Utils.Trace;
 using System.Security.Cryptography;
 
-namespace nz.govt.moe.idp.saml.client.config
+namespace nz.moe.idp.saml.client.config
 {
     /// <summary>
     /// Configuration elements for SAML20 Federation
     /// To create a new XSD Run this command:
-    /// xsd -t:nz.govt.moe.idp.saml.client.config.SAML20Federation nz.govt.moe.idp.saml.client.dll
+    /// xsd -t:nz.moe.idp.saml.client.config.SAML20Federation nz.moe.idp.saml.client.dll
     /// </summary>
     [Serializable]
     [XmlType(Namespace = ConfigurationConstants.NamespaceUri)]

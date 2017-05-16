@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Xml.Serialization;
 using Saml2.Properties;
 
-namespace nz.govt.moe.idp.saml.client.config
+namespace nz.moe.idp.saml.client.config
 {
     /// <summary>
     /// Container for a list of strings (from config) that represent wellformed absolute audience uris

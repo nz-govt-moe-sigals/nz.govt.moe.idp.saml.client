@@ -15,7 +15,7 @@ using System.Globalization;
 using System.Resources;
 using System.Runtime.CompilerServices;
 
-namespace nz.govt.moe.idp.saml.client.Properties {
+namespace nz.moe.idp.saml.client.Properties {
     /// <summary>
     /// A strongly-typed resource class, for looking up localized strings, formatting them, etc.
     /// </summary>
@@ -40,7 +40,7 @@ namespace nz.govt.moe.idp.saml.client.Properties {
         public static ResourceManager ResourceManager {
             get {
                 if (ReferenceEquals(_resourceManager, null)) {
-                    ResourceManager temp = new ResourceManager("dk.nita.saml20.Properties.Saml20Resources", typeof(Saml20Resources).Assembly);
+                    ResourceManager temp = new ResourceManager("nz.moe.idp.saml.client.Properties.Saml20Resources", typeof(Saml20Resources).Assembly);
                     _resourceManager = temp;
                 }
                 return _resourceManager;

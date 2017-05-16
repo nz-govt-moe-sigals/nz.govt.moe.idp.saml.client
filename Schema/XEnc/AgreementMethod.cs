@@ -1,9 +1,9 @@
 using System;
 using System.Xml;
 using System.Xml.Serialization;
-using nz.govt.moe.idp.saml.client.Schema.XmlDSig;
+using nz.moe.idp.saml.client.Schema.XmlDSig;
 
-namespace nz.govt.moe.idp.saml.client.Schema.XEnc
+namespace nz.moe.idp.saml.client.Schema.XEnc
 {
     /// <summary>
     /// The AgreementMethod element appears as the content of a ds:KeyInfo since, like other ds:KeyInfo children, 

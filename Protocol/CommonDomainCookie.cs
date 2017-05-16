@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Web;
 
-namespace nz.govt.moe.idp.saml.client.protocol
+namespace nz.moe.idp.saml.client.protocol
 {
     /// <summary>
     /// Implements access to the common domain cookie specified in the SAML20 indentity provider discovery profile

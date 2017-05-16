@@ -1,8 +1,8 @@
 using System;
 using System.Xml.Serialization;
-using nz.govt.moe.idp.saml.client.Schema.Protocol;
+using nz.moe.idp.saml.client.Schema.Protocol;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Core
+namespace nz.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The &lt;AttributeStatement&gt; element describes a statement by the SAML authority asserting that the

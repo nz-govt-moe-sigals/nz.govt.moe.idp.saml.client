@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Core
+namespace nz.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The &lt;AuthnContext&gt; element specifies the context of an authentication event. The element can contain

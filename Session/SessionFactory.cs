@@ -1,9 +1,9 @@
 ﻿using System;
-using nz.govt.moe.idp.saml.client.Utils;
-using nz.govt.moe.idp.saml.client.config;
-using nz.govt.moe.idp.saml.client.session.inproc;
+using nz.moe.idp.saml.client.Utils;
+using nz.moe.idp.saml.client.config;
+using nz.moe.idp.saml.client.session.inproc;
 
-namespace nz.govt.moe.idp.saml.client.session
+namespace nz.moe.idp.saml.client.session
 {
     /// <summary>
     /// Factory for getting the concrete session implementation.
@@ -18,9 +18,9 @@ namespace nz.govt.moe.idp.saml.client.session
                 try
                 {
                     var t = Type.GetType(type);
-                    if (t != null) 
-                    { 
-                        Sessions = (ISessions)Activator.CreateInstance(t); 
+                    if (t != null)
+                    {
+                        Sessions = (ISessions)Activator.CreateInstance(t);
                     }
                     else
                     {
@@ -40,7 +40,7 @@ namespace nz.govt.moe.idp.saml.client.session
         }
 
         private static readonly ISessions Sessions;
-        
+
         /// <summary>
         /// Returns the only instance of the session.
         /// </summary>

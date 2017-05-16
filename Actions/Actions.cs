@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using nz.govt.moe.idp.saml.client.config;
+using nz.moe.idp.saml.client.config;
 using System;
 
-namespace nz.govt.moe.idp.saml.client.Actions
+namespace nz.moe.idp.saml.client.Actions
 {
     /// <summary>
     /// 

@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Protocol
+namespace nz.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// The &lt;ArtifactResolve&gt; message is used to request that a SAML protocol message be returned in an

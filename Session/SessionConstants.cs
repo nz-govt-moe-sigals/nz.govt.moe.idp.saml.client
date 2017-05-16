@@ -1,4 +1,4 @@
-﻿namespace nz.govt.moe.idp.saml.client.session
+﻿namespace nz.moe.idp.saml.client.session
 {
     /// <summary>
     /// Class for storing constants regarding session handleing

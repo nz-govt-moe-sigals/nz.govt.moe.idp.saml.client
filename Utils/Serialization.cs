@@ -2,7 +2,7 @@ using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Utils
+namespace nz.moe.idp.saml.client.Utils
 {
     /// <summary>
     /// Functions for typed serialization and deserialization of objects.

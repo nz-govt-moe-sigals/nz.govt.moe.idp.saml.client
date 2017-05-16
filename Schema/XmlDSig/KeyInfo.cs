@@ -1,9 +1,9 @@
 using System;
 using System.Xml;
 using System.Xml.Serialization;
-using nz.govt.moe.idp.saml.client.Utils;
+using nz.moe.idp.saml.client.Utils;
 
-namespace nz.govt.moe.idp.saml.client.Schema.XmlDSig
+namespace nz.moe.idp.saml.client.Schema.XmlDSig
 {
     /// <summary>
     /// KeyInfo is an optional element that enables the recipient(s) to obtain the key needed to validate the 

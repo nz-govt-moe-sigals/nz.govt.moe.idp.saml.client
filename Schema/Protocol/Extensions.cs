@@ -2,7 +2,7 @@ using System;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Protocol
+namespace nz.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// This extension point contains optional protocol message extension elements that are agreed on

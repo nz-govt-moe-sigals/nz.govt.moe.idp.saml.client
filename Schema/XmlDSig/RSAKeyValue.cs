@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Schema.XmlDSig
+namespace nz.moe.idp.saml.client.Schema.XmlDSig
 {
     /// <summary>
     /// RSA key values have two fields: Modulus and Exponent. 

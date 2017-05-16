@@ -1,6 +1,6 @@
 using System.Xml;
 
-namespace nz.govt.moe.idp.saml.client
+namespace nz.moe.idp.saml.client
 {
     /// <summary>
     /// Implementors of this interface will be presented with the Xml form of the Saml 2.0 assertion issued by the IdP

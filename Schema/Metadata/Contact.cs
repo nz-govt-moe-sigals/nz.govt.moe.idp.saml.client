@@ -2,7 +2,7 @@ using System;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Metadata
+namespace nz.moe.idp.saml.client.Schema.Metadata
 {
     /// <summary>
     /// The &lt;ContactPerson&gt; element specifies basic contact information about a person responsible in some

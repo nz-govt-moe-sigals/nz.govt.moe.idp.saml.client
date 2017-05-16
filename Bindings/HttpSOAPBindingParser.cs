@@ -4,12 +4,12 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Security.Cryptography.Xml;
 using System.Xml;
-using nz.govt.moe.idp.saml.client.Schema.Core;
-using nz.govt.moe.idp.saml.client.Schema.Metadata;
-using nz.govt.moe.idp.saml.client.Schema.Protocol;
-using nz.govt.moe.idp.saml.client.Utils;
+using nz.moe.idp.saml.client.Schema.Core;
+using nz.moe.idp.saml.client.Schema.Metadata;
+using nz.moe.idp.saml.client.Schema.Protocol;
+using nz.moe.idp.saml.client.Utils;
 
-namespace nz.govt.moe.idp.saml.client.Bindings
+namespace nz.moe.idp.saml.client.Bindings
 {
     /// <summary>
     /// Parses messages pertaining to the HTTP SOAP binding.

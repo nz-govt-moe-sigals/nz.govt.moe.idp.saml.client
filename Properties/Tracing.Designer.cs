@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace nz.govt.moe.idp.saml.client.Properties {
+namespace nz.moe.idp.saml.client.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace nz.govt.moe.idp.saml.client.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("dk.nita.saml20.Properties.Tracing", typeof(Tracing).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("nz.moe.idp.saml.client.Properties.Tracing", typeof(Tracing).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

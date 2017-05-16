@@ -1,10 +1,10 @@
 using System;
 using System.Net.Mail;
-using nz.govt.moe.idp.saml.client.Schema.Core;
-using nz.govt.moe.idp.saml.client.Schema.Protocol;
-using nz.govt.moe.idp.saml.client.Utils;
+using nz.moe.idp.saml.client.Schema.Core;
+using nz.moe.idp.saml.client.Schema.Protocol;
+using nz.moe.idp.saml.client.Utils;
 
-namespace nz.govt.moe.idp.saml.client.Validation
+namespace nz.moe.idp.saml.client.Validation
 {
     internal class Saml20NameIDValidator : ISaml20NameIDValidator
     {

@@ -2,7 +2,7 @@ using System;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Protocol
+namespace nz.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// The &lt;StatusDetail&gt; element MAY be used to specify additional information concerning the status of

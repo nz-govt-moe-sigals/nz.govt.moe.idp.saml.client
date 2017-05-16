@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace nz.govt.moe.idp.saml.client.Utils
+namespace nz.moe.idp.saml.client.Utils
 {
     /// <summary>
     /// Contains functions to generate and parse artifacts, as defined in "Bindings for the OASIS 

@@ -8,8 +8,8 @@
     <ProjectGuid>{55520059-38BB-48BB-A30E-BFD385293D78}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NZ.MOE.IdP.SAML.Client</RootNamespace>
-    <AssemblyName>nz.govt.moe.idp.saml.client</AssemblyName>
+    <RootNamespace>nz.moe.idp.saml.client</RootNamespace>
+    <AssemblyName>nz.moe.idp.saml.client</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -44,7 +44,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\nz.govt.moe.idp.saml.client.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\nz.moe.idp.saml.client.xml</DocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>false</Prefer32Bit>

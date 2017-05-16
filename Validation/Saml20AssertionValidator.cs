@@ -1,12 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using nz.govt.moe.idp.saml.client.Schema.Core;
-using nz.govt.moe.idp.saml.client.Utils;
-using nz.govt.moe.idp.saml.client.Validation;
-using Trace=nz.govt.moe.idp.saml.client.Utils.Trace;
+using nz.moe.idp.saml.client.Schema.Core;
+using nz.moe.idp.saml.client.Utils;
+using nz.moe.idp.saml.client.Validation;
+using Trace=nz.moe.idp.saml.client.Utils.Trace;
 
-namespace nz.govt.moe.idp.saml.client.Validation
+namespace nz.moe.idp.saml.client.Validation
 {
     internal class Saml20AssertionValidator : ISaml20AssertionValidator
     {

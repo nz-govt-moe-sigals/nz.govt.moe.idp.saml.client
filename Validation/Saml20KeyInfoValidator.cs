@@ -1,9 +1,9 @@
 using System;
 using System.Xml;
-using nz.govt.moe.idp.saml.client.Schema.Core;
-using nz.govt.moe.idp.saml.client.Schema.XmlDSig;
+using nz.moe.idp.saml.client.Schema.Core;
+using nz.moe.idp.saml.client.Schema.XmlDSig;
 
-namespace nz.govt.moe.idp.saml.client.Validation
+namespace nz.moe.idp.saml.client.Validation
 {
     internal class Saml20KeyInfoValidator
     {

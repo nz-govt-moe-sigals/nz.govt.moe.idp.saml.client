@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Schema.XmlDSig
+namespace nz.moe.idp.saml.client.Schema.XmlDSig
 {
     /// <summary>
     /// Reference is an element that may occur one or more times. It specifies a digest algorithm and digest 

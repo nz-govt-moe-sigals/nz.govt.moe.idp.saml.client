@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Diagnostics;
 using System.Web;
-using nz.govt.moe.idp.saml.client.Bindings;
-using nz.govt.moe.idp.saml.client.config;
-using nz.govt.moe.idp.saml.client.Logging;
-using nz.govt.moe.idp.saml.client.Properties;
-using nz.govt.moe.idp.saml.client.Schema.Protocol;
-using nz.govt.moe.idp.saml.client.Utils;
-using Trace=nz.govt.moe.idp.saml.client.Utils.Trace;
+using nz.moe.idp.saml.client.Bindings;
+using nz.moe.idp.saml.client.config;
+using nz.moe.idp.saml.client.Logging;
+using nz.moe.idp.saml.client.Properties;
+using nz.moe.idp.saml.client.Schema.Protocol;
+using nz.moe.idp.saml.client.Utils;
+using Trace=nz.moe.idp.saml.client.Utils.Trace;
 
-namespace nz.govt.moe.idp.saml.client.protocol
+namespace nz.moe.idp.saml.client.protocol
 {
     /// <summary>
     /// Base class for all SAML20 specific endpoints.

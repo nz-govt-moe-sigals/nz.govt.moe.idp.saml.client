@@ -61,7 +61,7 @@ namespace Saml2.Properties {
                     global::System.Threading.Monitor.Enter(InternalSyncObject);
                     try {
                         if (object.ReferenceEquals(_resourceManager, null)) {
-                            global::System.Threading.Interlocked.Exchange(ref _resourceManager, new global::System.Resources.ResourceManager("dk.nita.saml20.Properties.Resources", typeof(Resources).Assembly));
+                            global::System.Threading.Interlocked.Exchange(ref _resourceManager, new global::System.Resources.ResourceManager("nz.moe.idp.saml.client.Properties.Resources", typeof(Resources).Assembly));
                         }
                     }
                     finally {

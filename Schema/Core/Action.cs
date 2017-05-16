@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Core
+namespace nz.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The &lt;Action&gt; element specifies an action on the specified resource for which permission is sought. Its

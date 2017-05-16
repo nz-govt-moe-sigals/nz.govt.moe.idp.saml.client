@@ -1,7 +1,7 @@
 using System;
-using nz.govt.moe.idp.saml.client.Schema.Protocol;
+using nz.moe.idp.saml.client.Schema.Protocol;
 
-namespace nz.govt.moe.idp.saml.client.Validation
+namespace nz.moe.idp.saml.client.Validation
 {
     internal class Saml20EncryptedElementValidator
     {

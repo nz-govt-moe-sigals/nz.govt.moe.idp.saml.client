@@ -1,8 +1,8 @@
 using System;
 using System.Xml.Serialization;
-using nz.govt.moe.idp.saml.client.Schema.Core;
+using nz.moe.idp.saml.client.Schema.Core;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Protocol
+namespace nz.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// 

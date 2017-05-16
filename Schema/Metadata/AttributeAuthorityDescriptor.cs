@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Metadata
+namespace nz.moe.idp.saml.client.Schema.Metadata
 {
     /// <summary>
     /// The &lt;AttributeAuthorityDescriptor&gt; element extends RoleDescriptorType with content
@@ -26,7 +26,7 @@ namespace nz.govt.moe.idp.saml.client.Schema.Metadata
         
         private string[] attributeProfileField;
         
-        private nz.govt.moe.idp.saml.client.config.Attribute[] attributeField;
+        private nz.moe.idp.saml.client.config.Attribute[] attributeField;
 
 
         /// <summary>
@@ -107,7 +107,7 @@ namespace nz.govt.moe.idp.saml.client.Schema.Metadata
         /// </summary>
         /// <value>The attribute.</value>
         [XmlElementAttribute("Attribute", Namespace=Saml20Constants.METADATA)]
-        public nz.govt.moe.idp.saml.client.config.Attribute[] Attribute {
+        public nz.moe.idp.saml.client.config.Attribute[] Attribute {
             get {
                 return attributeField;
             }

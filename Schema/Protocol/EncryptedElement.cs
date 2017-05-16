@@ -1,8 +1,8 @@
 using System;
 using System.Xml.Serialization;
-using nz.govt.moe.idp.saml.client.Schema.XEnc;
+using nz.moe.idp.saml.client.Schema.XEnc;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Protocol
+namespace nz.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// Represents an encrypted element

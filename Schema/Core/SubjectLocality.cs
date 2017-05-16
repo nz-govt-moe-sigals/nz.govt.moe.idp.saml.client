@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Core
+namespace nz.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The &lt;SubjectLocality&gt; element specifies the DNS domain name and IP address for the system from

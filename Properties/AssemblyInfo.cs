@@ -3,11 +3,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Web.UI;
 
-// General Information about an assembly is controlled through the following 
+// General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("nz.govt.moe.idp.saml.client")]
-[assembly: AssemblyDescription("nz.govt.moe.idp.saml.client a Net-based SAML 2.0 client that is a customization ofthe danish OIOSAML.NET toolkit.")]
+[assembly: AssemblyTitle("nz.moe.idp.saml.client")]
+[assembly: AssemblyDescription("nz.moe.idp.saml.client a Net-based SAML 2.0 client that is a customization of the danish OIOSAML.NET toolkit.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Ministry of Education, NZ")]
 [assembly: AssemblyProduct("")]
@@ -15,8 +15,8 @@ using System.Web.UI;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// Setting ComVisible to false makes the types in this assembly not visible 
-// to COM components.  If you need to access a type in this assembly from 
+// Setting ComVisible to false makes the types in this assembly not visible
+// to COM components.  If you need to access a type in this assembly from
 // COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
 
@@ -28,5 +28,5 @@ using System.Web.UI;
 [assembly: AssemblyInformationalVersion("1.7.13")]
 
 
-[assembly: WebResource("nz.govt.moe.idp.saml.client.Protocol.Resources.DefaultStyle.css", "text/css")]
+[assembly: WebResource("nz.moe.idp.saml.client.Protocol.Resources.DefaultStyle.css", "text/css")]
 

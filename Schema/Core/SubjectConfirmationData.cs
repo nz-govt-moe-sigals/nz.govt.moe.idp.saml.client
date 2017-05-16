@@ -1,9 +1,9 @@
 using System;
 using System.Xml;
 using System.Xml.Serialization;
-using nz.govt.moe.idp.saml.client.Utils;
+using nz.moe.idp.saml.client.Utils;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Core
+namespace nz.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The &lt;SubjectConfirmationData&gt; element has the SubjectConfirmationDataType complex type. It

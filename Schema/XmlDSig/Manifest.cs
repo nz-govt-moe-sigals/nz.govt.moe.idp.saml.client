@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Schema.XmlDSig
+namespace nz.moe.idp.saml.client.Schema.XmlDSig
 {
     /// <summary>
     /// The Manifest element provides a list of References. The difference from the list in SignedInfo is that 

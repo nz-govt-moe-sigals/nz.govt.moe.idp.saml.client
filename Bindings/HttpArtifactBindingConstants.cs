@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace nz.govt.moe.idp.saml.client.Bindings
+namespace nz.moe.idp.saml.client.Bindings
 {
     /// <summary>
     /// Constants pertaining to the artifact binding over HTTP SOAP.

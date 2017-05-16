@@ -1,8 +1,8 @@
 using System;
 using System.Xml.Serialization;
-using nz.govt.moe.idp.saml.client.Schema.Core;
+using nz.moe.idp.saml.client.Schema.Core;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Metadata
+namespace nz.moe.idp.saml.client.Schema.Metadata
 {
     /// <summary>
     /// The &lt;IDPSSODescriptor&gt; element extends SSODescriptorType with content reflecting profiles

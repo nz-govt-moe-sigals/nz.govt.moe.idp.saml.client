@@ -1,8 +1,8 @@
 using System;
 using System.Xml.Serialization;
-using nz.govt.moe.idp.saml.client.Schema.Protocol;
+using nz.moe.idp.saml.client.Schema.Protocol;
 
-namespace nz.govt.moe.idp.saml.client.Schema.Core
+namespace nz.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The optional &lt;Subject&gt; element specifies the principal that is the subject of all of the (zero or more)

@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 
-namespace nz.govt.moe.idp.saml.client.Specification
+namespace nz.moe.idp.saml.client.Specification
 {
     /// <summary>
     /// Specification interface for certificate validation

@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.govt.moe.idp.saml.client.Schema.XEnc
+namespace nz.moe.idp.saml.client.Schema.XEnc
 {
     /// <summary>
     /// ReferenceList is an element that contains pointers from a key value of an EncryptedKey to items 

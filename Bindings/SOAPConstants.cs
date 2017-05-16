@@ -1,4 +1,4 @@
-﻿namespace nz.govt.moe.idp.saml.client.Bindings
+﻿namespace nz.moe.idp.saml.client.Bindings
 {
     /// <summary>
     /// Constants related to the HTTP SOAP binding

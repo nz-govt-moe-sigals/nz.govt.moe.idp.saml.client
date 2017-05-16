@@ -2,10 +2,10 @@
 using System.Diagnostics;
 using System.IdentityModel.Selectors;
 using System.Security.Cryptography.X509Certificates;
-using nz.govt.moe.idp.saml.client.Properties;
-using Trace=nz.govt.moe.idp.saml.client.Utils.Trace;
+using nz.moe.idp.saml.client.Properties;
+using Trace=nz.moe.idp.saml.client.Utils.Trace;
 
-namespace nz.govt.moe.idp.saml.client.Specification
+namespace nz.moe.idp.saml.client.Specification
 {
     /// <summary>
     /// Validates a selfsigned certificate

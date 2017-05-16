@@ -1,13 +1,13 @@
 ﻿using System.Diagnostics;
 using System.Web;
 using System;
-using nz.govt.moe.idp.saml.client.config;
-using nz.govt.moe.idp.saml.client.Logging;
-using nz.govt.moe.idp.saml.client.Properties;
-using nz.govt.moe.idp.saml.client.protocol;
-using Trace=nz.govt.moe.idp.saml.client.Utils.Trace;
+using nz.moe.idp.saml.client.config;
+using nz.moe.idp.saml.client.Logging;
+using nz.moe.idp.saml.client.Properties;
+using nz.moe.idp.saml.client.protocol;
+using Trace=nz.moe.idp.saml.client.Utils.Trace;
 
-namespace nz.govt.moe.idp.saml.client.protocol
+namespace nz.moe.idp.saml.client.protocol
 {
     /// <summary>
     /// Common Domain Cookie reader endpoint
