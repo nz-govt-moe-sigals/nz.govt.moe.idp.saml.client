@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.moe.idp.saml.client.Schema.XmlDSig
+namespace nz.govt.moe.idp.saml.client.Schema.XmlDSig
 {
     /// <summary>
     /// The structure of SignedInfo includes the canonicalization algorithm, a signature algorithm, and one or 

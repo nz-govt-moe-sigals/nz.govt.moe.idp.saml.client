@@ -6,21 +6,21 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Web;
 using System.Xml;
-using nz.moe.idp.saml.client;
-using nz.moe.idp.saml.client.Bindings;
-using nz.moe.idp.saml.client.Identity;
-using nz.moe.idp.saml.client.session;
-using nz.moe.idp.saml.client.config;
-using nz.moe.idp.saml.client.identity;
-using nz.moe.idp.saml.client.Properties;
-using nz.moe.idp.saml.client.protocol;
-using nz.moe.idp.saml.client.Schema.Core;
-using nz.moe.idp.saml.client.Schema.Protocol;
-using nz.moe.idp.saml.client.Utils;
+using nz.govt.moe.idp.saml.client;
+using nz.govt.moe.idp.saml.client.Bindings;
+using nz.govt.moe.idp.saml.client.Identity;
+using nz.govt.moe.idp.saml.client.session;
+using nz.govt.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.identity;
+using nz.govt.moe.idp.saml.client.Properties;
+using nz.govt.moe.idp.saml.client.protocol;
+using nz.govt.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Schema.Protocol;
+using nz.govt.moe.idp.saml.client.Utils;
 using Saml2.Properties;
-using Trace = nz.moe.idp.saml.client.Utils.Trace;
+using Trace = nz.govt.moe.idp.saml.client.Utils.Trace;
 
-namespace nz.moe.idp.saml.client
+namespace nz.govt.moe.idp.saml.client
 {
     /// <summary>
     /// Performs SAML2.0 attribute queries

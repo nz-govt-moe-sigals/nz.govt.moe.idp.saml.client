@@ -1,9 +1,9 @@
 using System;
 using System.Xml.Serialization;
-using nz.moe.idp.saml.client.Utils;
-using nz.moe.idp.saml.client.Schema;
+using nz.govt.moe.idp.saml.client.Utils;
+using nz.govt.moe.idp.saml.client.Schema;
 
-namespace nz.moe.idp.saml.client.Schema.Core
+namespace nz.govt.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The &lt;AuthnStatement&gt; element describes a statement by the SAML authority asserting that the

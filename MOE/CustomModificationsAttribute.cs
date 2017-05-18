@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace nz.moe.idp.saml.client.MOE
+namespace nz.govt.moe.idp.saml.client.MOE
 {
     /// <summary>
     /// Attribute to help find custom modifications to the base Danish library.

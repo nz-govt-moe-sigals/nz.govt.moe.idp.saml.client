@@ -2,7 +2,7 @@ using System;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace nz.moe.idp.saml.client.Schema.XEnc
+namespace nz.govt.moe.idp.saml.client.Schema.XEnc
 {
     /// <summary>
     /// Additional information items concerning the generation of the EncryptedData or EncryptedKey can be placed 

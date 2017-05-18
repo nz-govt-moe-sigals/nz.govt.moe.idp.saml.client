@@ -9,24 +9,24 @@ using System.Text;
 using System.Web;
 using System.Web.Caching;
 using System.Xml;
-using nz.moe.idp.saml.client.Actions;
-using nz.moe.idp.saml.client.Bindings;
-using nz.moe.idp.saml.client.Profiles.DKSaml20.Attributes;
-using nz.moe.idp.saml.client.Session;
-using nz.moe.idp.saml.client.session;
-using nz.moe.idp.saml.client.config;
-using nz.moe.idp.saml.client.Logging;
-using nz.moe.idp.saml.client.Properties;
-using nz.moe.idp.saml.client.protocol.pages;
-using nz.moe.idp.saml.client.Schema.Core;
-using nz.moe.idp.saml.client.Schema.Metadata;
-using nz.moe.idp.saml.client.Schema.Protocol;
-using nz.moe.idp.saml.client.Specification;
-using nz.moe.idp.saml.client.Utils;
+using nz.govt.moe.idp.saml.client.Actions;
+using nz.govt.moe.idp.saml.client.Bindings;
+using nz.govt.moe.idp.saml.client.Profiles.DKSaml20.Attributes;
+using nz.govt.moe.idp.saml.client.Session;
+using nz.govt.moe.idp.saml.client.session;
+using nz.govt.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.Logging;
+using nz.govt.moe.idp.saml.client.Properties;
+using nz.govt.moe.idp.saml.client.protocol.pages;
+using nz.govt.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Schema.Metadata;
+using nz.govt.moe.idp.saml.client.Schema.Protocol;
+using nz.govt.moe.idp.saml.client.Specification;
+using nz.govt.moe.idp.saml.client.Utils;
 using Saml2.Properties;
-using Trace=nz.moe.idp.saml.client.Utils.Trace;
+using Trace=nz.govt.moe.idp.saml.client.Utils.Trace;
 
-namespace nz.moe.idp.saml.client.protocol
+namespace nz.govt.moe.idp.saml.client.protocol
 {
     /// <summary>
     /// Implements a Saml 2.0 protocol sign-on endpoint. Handles all SAML bindings.

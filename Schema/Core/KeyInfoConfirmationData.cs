@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.moe.idp.saml.client.Schema.Core
+namespace nz.govt.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The KeyInfoConfirmationDataType complex type constrains a &lt;SubjectConfirmationData&gt;

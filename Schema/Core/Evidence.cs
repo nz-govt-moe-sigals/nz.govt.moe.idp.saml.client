@@ -1,8 +1,8 @@
 using System;
 using System.Xml.Serialization;
-using nz.moe.idp.saml.client.Schema.Protocol;
+using nz.govt.moe.idp.saml.client.Schema.Protocol;
 
-namespace nz.moe.idp.saml.client.Schema.Core
+namespace nz.govt.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The &lt;Evidence&gt; element contains one or more assertions or assertion references that the SAML

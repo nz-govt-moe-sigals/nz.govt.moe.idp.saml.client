@@ -1,8 +1,8 @@
 using System;
-using nz.moe.idp.saml.client.Schema.Core;
-using nz.moe.idp.saml.client.Utils;
+using nz.govt.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Utils;
 
-namespace nz.moe.idp.saml.client.Validation
+namespace nz.govt.moe.idp.saml.client.Validation
 {
     internal class Saml20SubjectConfirmationDataValidator : ISaml20SubjectConfirmationDataValidator
     {

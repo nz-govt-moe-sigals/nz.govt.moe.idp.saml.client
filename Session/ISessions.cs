@@ -1,4 +1,4 @@
-﻿namespace nz.moe.idp.saml.client.session
+﻿namespace nz.govt.moe.idp.saml.client.session
 {
     /// <summary>
     /// This interface is used for working with session state. It makes it possible to access all sessions at any time.

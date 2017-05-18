@@ -2,7 +2,7 @@ using System;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace nz.moe.idp.saml.client.Schema.XmlDSig
+namespace nz.govt.moe.idp.saml.client.Schema.XmlDSig
 {
     /// <summary>
     /// Object is an optional element that may occur one or more times. When present, this element may contain 

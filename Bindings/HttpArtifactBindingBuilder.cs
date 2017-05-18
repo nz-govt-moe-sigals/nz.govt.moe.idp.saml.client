@@ -4,14 +4,14 @@ using System.IO;
 using System.Web;
 using System.Web.Caching;
 using System.Xml;
-using nz.moe.idp.saml.client.config;
-using nz.moe.idp.saml.client.Logging;
-using nz.moe.idp.saml.client.Properties;
-using nz.moe.idp.saml.client.Schema.Protocol;
-using nz.moe.idp.saml.client.Utils;
-using Trace=nz.moe.idp.saml.client.Utils.Trace;
+using nz.govt.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.Logging;
+using nz.govt.moe.idp.saml.client.Properties;
+using nz.govt.moe.idp.saml.client.Schema.Protocol;
+using nz.govt.moe.idp.saml.client.Utils;
+using Trace=nz.govt.moe.idp.saml.client.Utils.Trace;
 
-namespace nz.moe.idp.saml.client.Bindings
+namespace nz.govt.moe.idp.saml.client.Bindings
 {
     /// <summary>
     /// Implementation of the artifact over HTTP SOAP binding.

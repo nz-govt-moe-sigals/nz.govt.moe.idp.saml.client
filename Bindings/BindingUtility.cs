@@ -1,10 +1,10 @@
 using System;
 using System.Security.Cryptography.X509Certificates;
 using System.Web;
-using nz.moe.idp.saml.client.config;
-using nz.moe.idp.saml.client.Properties;
+using nz.govt.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.Properties;
 
-namespace nz.moe.idp.saml.client.Bindings
+namespace nz.govt.moe.idp.saml.client.Bindings
 {
     /// <summary>
     /// Utility functions for use in binding implementations.

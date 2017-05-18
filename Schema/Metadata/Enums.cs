@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.moe.idp.saml.client.Schema.Metadata
+namespace nz.govt.moe.idp.saml.client.Schema.Metadata
 {
     /// <summary>
     /// Contact type enum

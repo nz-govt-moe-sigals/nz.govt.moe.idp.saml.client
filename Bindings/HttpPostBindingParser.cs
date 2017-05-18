@@ -5,12 +5,12 @@ using System.Web;
 using System.Xml;
 using System.Security.Cryptography;
 using System.Security.Cryptography.Xml;
-using nz.moe.idp.saml.client.Logging;
-using nz.moe.idp.saml.client.Schema.Metadata;
-using nz.moe.idp.saml.client.Schema.Protocol;
-using nz.moe.idp.saml.client.Utils;
+using nz.govt.moe.idp.saml.client.Logging;
+using nz.govt.moe.idp.saml.client.Schema.Metadata;
+using nz.govt.moe.idp.saml.client.Schema.Protocol;
+using nz.govt.moe.idp.saml.client.Utils;
 
-namespace nz.moe.idp.saml.client.Bindings
+namespace nz.govt.moe.idp.saml.client.Bindings
 {
     /// <summary>
     /// Parses the response messages related to the HTTP POST binding.

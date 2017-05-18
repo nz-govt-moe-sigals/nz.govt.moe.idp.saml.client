@@ -2,7 +2,7 @@ using System;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace nz.moe.idp.saml.client.Schema.Metadata
+namespace nz.govt.moe.idp.saml.client.Schema.Metadata
 {
     /// <summary>
     /// The &lt;SPSSODescriptor&gt; element extends SSODescriptorType with content reflecting profiles specific

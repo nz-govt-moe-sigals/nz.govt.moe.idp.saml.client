@@ -4,7 +4,7 @@ using System.Web.Configuration;
 using System.Web.UI;
 using Saml2.Properties;
 
-namespace nz.moe.idp.saml.client.protocol.pages
+namespace nz.govt.moe.idp.saml.client.protocol.pages
 {
     /// <summary>
     /// A page for displaying error messages

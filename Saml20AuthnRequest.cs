@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Xml;
-using nz.moe.idp.saml.client.config;
-using nz.moe.idp.saml.client.Schema.Core;
-using nz.moe.idp.saml.client.Schema.Protocol;
-using nz.moe.idp.saml.client.Utils;
+using nz.govt.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Schema.Protocol;
+using nz.govt.moe.idp.saml.client.Utils;
 using Saml2.Properties;
 
-namespace nz.moe.idp.saml.client
+namespace nz.govt.moe.idp.saml.client
 {
     /// <summary>
     /// Encapsulates a SAML 2.0 authentication request

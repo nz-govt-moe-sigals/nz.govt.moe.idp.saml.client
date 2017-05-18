@@ -1,8 +1,8 @@
 using System;
 using System.Xml.Serialization;
-using nz.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Schema.Core;
 
-namespace nz.moe.idp.saml.client.Schema.Protocol
+namespace nz.govt.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// To request that an identity provider issue an assertion with an authentication statement, a presenter

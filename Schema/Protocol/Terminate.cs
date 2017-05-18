@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Xml.Serialization;
 
-namespace nz.moe.idp.saml.client.Schema.Protocol
+namespace nz.govt.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// The Saml20 protocol Terminate class

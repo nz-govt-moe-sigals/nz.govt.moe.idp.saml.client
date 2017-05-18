@@ -2,7 +2,7 @@ using System;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace nz.moe.idp.saml.client.Schema.Protocol
+namespace nz.govt.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// The recipient of an &lt;ArtifactResolve&gt; message MUST respond with an &lt;ArtifactResponse&gt;

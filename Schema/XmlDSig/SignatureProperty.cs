@@ -2,7 +2,7 @@ using System;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace nz.moe.idp.saml.client.Schema.XmlDSig
+namespace nz.govt.moe.idp.saml.client.Schema.XmlDSig
 {
     /// <summary>
     /// For the inclusion of assertions about the signature itself (e.g., signature semantics, the time of signing 

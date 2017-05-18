@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
-using nz.moe.idp.saml.client.Schema.Protocol;
-using nz.moe.idp.saml.client.Utils;
+using nz.govt.moe.idp.saml.client.Schema.Protocol;
+using nz.govt.moe.idp.saml.client.Utils;
 using System.Xml;
 
-namespace nz.moe.idp.saml.client.Bindings
+namespace nz.govt.moe.idp.saml.client.Bindings
 {
     /// <summary>
     /// Parses the response messages related to the artifact binding.

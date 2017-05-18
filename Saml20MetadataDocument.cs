@@ -4,14 +4,14 @@ using System.Security.Cryptography.X509Certificates;
 using System.Security.Cryptography.Xml;
 using System.Text;
 using System.Xml;
-using nz.moe.idp.saml.client.config;
-using nz.moe.idp.saml.client.Schema.Core;
-using nz.moe.idp.saml.client.Schema.Metadata;
-using nz.moe.idp.saml.client.Utils;
+using nz.govt.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Schema.Metadata;
+using nz.govt.moe.idp.saml.client.Utils;
 using System.Configuration;
-using nz.moe.idp.saml.client.MOE;
+using nz.govt.moe.idp.saml.client.MOE;
 
-namespace nz.moe.idp.saml.client
+namespace nz.govt.moe.idp.saml.client
 {
     /// <summary>
     /// The Saml20MetadataDocument class handles functionality related to the &lt;EntityDescriptor&gt; element.

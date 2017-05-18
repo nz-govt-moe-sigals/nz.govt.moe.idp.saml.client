@@ -5,13 +5,13 @@ using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Cryptography.Xml;
 using System.Xml;
-using nz.moe.idp.saml.client.config;
-using nz.moe.idp.saml.client.Schema.Core;
-using nz.moe.idp.saml.client.Schema.Protocol;
-using nz.moe.idp.saml.client.Utils;
-using nz.moe.idp.saml.client.Validation;
+using nz.govt.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Schema.Protocol;
+using nz.govt.moe.idp.saml.client.Utils;
+using nz.govt.moe.idp.saml.client.Validation;
 
-namespace nz.moe.idp.saml.client
+namespace nz.govt.moe.idp.saml.client
 {
     ///<summary>
     /// Encapsulates the functionality required of a DK-SAML 2.0 Assertion. 
@@ -458,7 +458,7 @@ namespace nz.moe.idp.saml.client
             // Remove existing signatures when resigning the assertion
             XmlElement signatureParentNode = _samlAssertion; //FIX.DocumentElement;
             XmlNode sigNode = null;
-            while( (sigNode = signatureParentNode.GetElementsByTagName(nz.moe.idp.saml.client.Schema.XmlDSig.Signature.ELEMENT_NAME,
+            while( (sigNode = signatureParentNode.GetElementsByTagName(nz.govt.moe.idp.saml.client.Schema.XmlDSig.Signature.ELEMENT_NAME,
                                                      Saml20Constants.XMLDSIG)[0]) != null )
             {
                 signatureParentNode.RemoveChild(sigNode);

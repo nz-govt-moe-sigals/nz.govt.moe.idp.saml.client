@@ -2,7 +2,7 @@ using System;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace nz.moe.idp.saml.client.Schema.Metadata
+namespace nz.govt.moe.idp.saml.client.Schema.Metadata
 {
     /// <summary>
     /// The localizedURIType complex type extends a URI-valued element with a standard XML language

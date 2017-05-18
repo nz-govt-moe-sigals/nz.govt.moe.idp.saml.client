@@ -1,8 +1,8 @@
 using System;
 using System.Xml.Serialization;
-using nz.moe.idp.saml.client.Schema.Protocol;
+using nz.govt.moe.idp.saml.client.Schema.Protocol;
 
-namespace nz.moe.idp.saml.client.Schema.Core
+namespace nz.govt.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The &lt;SubjectConfirmation&gt; element provides the means for a relying party to verify the

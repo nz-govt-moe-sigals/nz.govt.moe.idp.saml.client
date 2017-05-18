@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace nz.moe.idp.saml.client.Logging
+namespace nz.govt.moe.idp.saml.client.Logging
 {
     /// <summary>
     /// Defines the behaviour of an audit logger that logs an audit trail

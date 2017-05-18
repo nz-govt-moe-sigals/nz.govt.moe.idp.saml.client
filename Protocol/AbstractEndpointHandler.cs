@@ -4,13 +4,13 @@ using System.Diagnostics;
 using System.Text;
 using System.Threading;
 using System.Web;
-using nz.moe.idp.saml.client.session;
-using nz.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.session;
+using nz.govt.moe.idp.saml.client.config;
 using System.Web.SessionState;
-using nz.moe.idp.saml.client.protocol.pages;
-using Trace=nz.moe.idp.saml.client.Utils.Trace;
+using nz.govt.moe.idp.saml.client.protocol.pages;
+using Trace=nz.govt.moe.idp.saml.client.Utils.Trace;
 
-namespace nz.moe.idp.saml.client.protocol
+namespace nz.govt.moe.idp.saml.client.protocol
 {
     /// <summary>
     /// A base class for all endpoint handlers.
@@ -48,7 +48,7 @@ namespace nz.moe.idp.saml.client.protocol
             Boolean showError = SAML20FederationConfig.GetConfig().ShowError;
             String DEFAULT_MESSAGE = "Unable to validate SAML message!";
 
-            if (!string.IsNullOrEmpty(ErrorBehaviour) && ErrorBehaviour.Equals(nz.moe.idp.saml.client.config.ErrorBehaviour.THROWEXCEPTION.ToString()))
+            if (!string.IsNullOrEmpty(ErrorBehaviour) && ErrorBehaviour.Equals(nz.govt.moe.idp.saml.client.config.ErrorBehaviour.THROWEXCEPTION.ToString()))
             {
                 if (showError)
                     throw new Saml20Exception(errorMessage);

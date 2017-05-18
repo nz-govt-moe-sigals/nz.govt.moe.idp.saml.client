@@ -3,7 +3,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Xml.Serialization;
 using Saml2.Properties;
 
-namespace nz.moe.idp.saml.client.config
+namespace nz.govt.moe.idp.saml.client.config
 {
     /// <summary>
     /// Common implementation of X509 certificate references used in configuration files. 

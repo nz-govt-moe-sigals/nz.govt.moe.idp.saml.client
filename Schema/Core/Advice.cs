@@ -1,8 +1,8 @@
 using System;
 using System.Xml.Serialization;
-using nz.moe.idp.saml.client.Schema.Protocol;
+using nz.govt.moe.idp.saml.client.Schema.Protocol;
 
-namespace nz.moe.idp.saml.client.Schema.Core
+namespace nz.govt.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The &lt;Advice&gt; element contains any additional information that the SAML authority wishes to provide.

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace nz.moe.idp.saml.client.session.inproc
+namespace nz.govt.moe.idp.saml.client.session.inproc
 {
     class InProcSession : ISession
     {
-        private readonly IDictionary<string, object> _dictionary =  new Dictionary<string, object>();
+        private static readonly IDictionary<string, object> _dictionary =  new Dictionary<string, object>();
 
         public InProcSession(Guid sessionId)
         {

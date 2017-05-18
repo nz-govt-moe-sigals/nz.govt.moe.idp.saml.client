@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.moe.idp.saml.client.Schema.Protocol
+namespace nz.govt.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// The &lt;AuthnQuery&gt; message element is used to make the query "What assertions containing

@@ -1,9 +1,9 @@
 using System;
 using System.Xml.Serialization;
-using nz.moe.idp.saml.client.Schema.Core;
-using nz.moe.idp.saml.client.Utils;
+using nz.govt.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Utils;
 
-namespace nz.moe.idp.saml.client.Schema.Protocol
+namespace nz.govt.moe.idp.saml.client.Schema.Protocol
 {
     /// <summary>
     /// A session participant or session authority sends a &lt;LogoutRequest&gt; message to indicate that a session

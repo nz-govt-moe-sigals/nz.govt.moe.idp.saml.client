@@ -2,7 +2,7 @@ using System;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace nz.moe.idp.saml.client.Schema.XEnc
+namespace nz.govt.moe.idp.saml.client.Schema.XEnc
 {
     /// <summary>
     /// EncryptionMethod is an optional element that describes the encryption algorithm applied to the cipher data. 

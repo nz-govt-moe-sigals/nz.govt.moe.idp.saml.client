@@ -1,4 +1,4 @@
-namespace nz.moe.idp.saml.client.Profiles.DKSaml20
+namespace nz.govt.moe.idp.saml.client.Profiles.DKSaml20
 {
     /// <summary>
     /// Thrown when a token does not comply with the DK-Saml 2.0 specification. This does not necessarily imply that the

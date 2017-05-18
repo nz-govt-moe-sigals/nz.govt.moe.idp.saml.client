@@ -2,11 +2,11 @@ using System;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Web;
-using nz.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.config;
 using Saml2.Properties;
 using System.Security.Cryptography.Xml;
 
-namespace nz.moe.idp.saml.client.protocol
+namespace nz.govt.moe.idp.saml.client.protocol
 {
     /// <summary>
     /// The handler that exposes a metadata endpoint to the other parties of the federation.

@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Serialization;
 
-namespace nz.moe.idp.saml.client.Schema.XmlDSig
+namespace nz.govt.moe.idp.saml.client.Schema.XmlDSig
 {
     /// <summary>
     /// An X509Data element within KeyInfo contains one or more identifiers of keys or X509 certificates 

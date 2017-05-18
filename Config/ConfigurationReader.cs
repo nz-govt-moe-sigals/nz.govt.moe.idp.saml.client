@@ -5,7 +5,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using System.Text;
 
-namespace nz.moe.idp.saml.client.config
+namespace nz.govt.moe.idp.saml.client.config
 {
     /// <summary>
     /// </summary>

@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Web;
-using nz.moe.idp.saml.client.Identity;
-using nz.moe.idp.saml.client.session;
-using nz.moe.idp.saml.client.config;
-using nz.moe.idp.saml.client.protocol;
+using nz.govt.moe.idp.saml.client.Identity;
+using nz.govt.moe.idp.saml.client.session;
+using nz.govt.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.protocol;
 
-namespace nz.moe.idp.saml.client.Actions
+namespace nz.govt.moe.idp.saml.client.Actions
 {
     /// <summary>
     /// This action redirects to a Common Domain Cookie writer endpoint at the IdP.

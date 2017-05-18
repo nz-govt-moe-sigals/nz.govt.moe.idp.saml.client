@@ -1,8 +1,8 @@
 using System;
 using System.Diagnostics;
-using nz.moe.idp.saml.client.Properties;
+using nz.govt.moe.idp.saml.client.Properties;
 
-namespace nz.moe.idp.saml.client.Utils
+namespace nz.govt.moe.idp.saml.client.Utils
 {
     /// <summary>
     /// Trace class. Can be used to trace. To ensure that tracing is enabled, you should make a call to "ShouldTrace"

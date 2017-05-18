@@ -1,9 +1,9 @@
 ﻿using System;
-using nz.moe.idp.saml.client.Utils;
-using nz.moe.idp.saml.client.config;
-using nz.moe.idp.saml.client.session.inproc;
+using nz.govt.moe.idp.saml.client.Utils;
+using nz.govt.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.session.inproc;
 
-namespace nz.moe.idp.saml.client.session
+namespace nz.govt.moe.idp.saml.client.session
 {
     /// <summary>
     /// Factory for getting the concrete session implementation.

@@ -1,7 +1,7 @@
 ﻿using System.Web;
-using nz.moe.idp.saml.client.protocol;
+using nz.govt.moe.idp.saml.client.protocol;
 
-namespace nz.moe.idp.saml.client.Actions
+namespace nz.govt.moe.idp.saml.client.Actions
 {
     /// <summary>
     /// Performs redirect after login and logout

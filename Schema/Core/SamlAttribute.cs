@@ -1,9 +1,9 @@
 using System;
 using System.Xml;
 using System.Xml.Serialization;
-using nz.moe.idp.saml.client.Schema.Metadata;
+using nz.govt.moe.idp.saml.client.Schema.Metadata;
 
-namespace nz.moe.idp.saml.client.Schema.Core
+namespace nz.govt.moe.idp.saml.client.Schema.Core
 {
     /// <summary>
     /// The &lt;Attribute&gt; element identifies an attribute by name and optionally includes its value(s). It has the

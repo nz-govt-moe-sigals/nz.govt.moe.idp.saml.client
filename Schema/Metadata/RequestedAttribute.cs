@@ -1,9 +1,9 @@
 using System;
 using System.Xml;
 using System.Xml.Serialization;
-using nz.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Schema.Core;
 
-namespace nz.moe.idp.saml.client.Schema.Metadata
+namespace nz.govt.moe.idp.saml.client.Schema.Metadata
 {
     /// <summary>
     /// The &lt;RequestedAttribute&gt; element specifies a service provider's interest in a specific SAML

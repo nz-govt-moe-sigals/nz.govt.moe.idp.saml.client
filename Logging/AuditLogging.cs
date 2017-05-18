@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Text;
 using System.Web;
 using System.Xml;
-using nz.moe.idp.saml.client.identity;
-using nz.moe.idp.saml.client.Schema.Metadata;
-using nz.moe.idp.saml.client.config;
-using nz.moe.idp.saml.client.Utils;
-using nz.moe.idp.saml.client.session;
+using nz.govt.moe.idp.saml.client.identity;
+using nz.govt.moe.idp.saml.client.Schema.Metadata;
+using nz.govt.moe.idp.saml.client.config;
+using nz.govt.moe.idp.saml.client.Utils;
+using nz.govt.moe.idp.saml.client.session;
 
-namespace nz.moe.idp.saml.client.Logging
+namespace nz.govt.moe.idp.saml.client.Logging
 {
     ///<summary>
     ///</summary>

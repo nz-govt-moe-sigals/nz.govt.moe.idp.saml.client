@@ -1,6 +1,6 @@
-using nz.moe.idp.saml.client.Schema.Core;
+using nz.govt.moe.idp.saml.client.Schema.Core;
 
-namespace nz.moe.idp.saml.client.Profiles.DKSaml20.Attributes
+namespace nz.govt.moe.idp.saml.client.Profiles.DKSaml20.Attributes
 {
     /// <summary>
     /// 
